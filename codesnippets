@@ -1,3 +1,13 @@
 https://swapi.co/apipeople/1
 
 componentDidMount
+
+
+TodoItem
+const completedstyle = {
+	fontStyle: "italic",
+	color: "#cdcdcd",
+	TextDecoration: "line-through"
+}
+
+{props.item.completed? completedstyle: none}
